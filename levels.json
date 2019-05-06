@@ -1,0 +1,56 @@
+{
+    "nivel-1":{
+        "num":1,
+        "nombre":"Programador Web",
+        "lenguajes":"Mayormente declarativos: HTML, CSS,  sin importar que framework Javascript de moda estè utilizando.",
+        "tecno": "Servers Apache, PHPMyAdmin, MySql",
+        "protocolos": "HTTP, HTTPS",
+        "sueldo": "U$S 100/250 p/mes",
+        "cant": 80
+    },
+    "nivel-2":{
+        "num":2,
+        "nombre":"Programadores FullStack",
+        "lenguajes":"Mayormente declarativos interpretados de alto nivel, PHP, Python, HTML, CSS, XML, JSON, frameworks JavaScript.",
+        "tecno": "Servers Apache, NodeJS, PHPMyAdmin, MySql",
+        "protocolos": "HTTP, HTTPS",
+        "sueldo": "U$S 250/500 p/mes",
+        "cant": 10
+    },
+    "nivel-3":{
+        "num":3,
+        "nombre":"Programador de aplicaciones de Escritorio, ejecutables, procesos, servers/client y demonios para sistemas informàticos multipropòsito de red, de anàlisis o de automatizaciòn.",
+        "lenguajes":"Declarativos e Imperativos Mayormente Compilados de nivel medio: C++, QML, JavaScript, NodeJS, Bash.",
+        "tecno": "Framework Qt, Visual Studio, Xcode, Nginx.",
+        "protocolos": "HTTP, HTTPS, RTSP, RTMP, WS",
+        "sueldo": "U$S 500/850 p/mes",
+        "cant": 5
+    },
+    "nivel-4":{
+        "num":4,
+        "nombre":"Programador de aplicaciones de Escritorio y Mobile, ejecutables, procesos, server/client y demonios para sistemas informàticos multipropòsito de red, de anàlisis o de automatizaciòn, inteligencia artificial.",
+        "lenguajes":"Mayormente mayormente Imperativos Compilados de nivel medio: C++, QML, Swift, Go,JavaScript, NodeJS, Bash.",
+        "tecno": "Framework Qt, Visual Studio, Android Studio, Xcode, Nginx.",
+        "protocolos": "SSH, HTTP, HTTPS, RTSP, RTMP, WS",
+        "sueldo": "U$S 850/1250 p/mes",
+        "cant": 4
+    },
+    "nivel-5":{
+        "num":5,
+        "nombre":"Programador de microcontroladores para la inginierìa informàtica electromecànica, robòtica, de anàlisis o de automatizaciòn.",
+        "lenguajes":"mayormente Imperativos Compilados de nivel medio y de bajo nivel: C, C++, QML, Basic, JavaScript, NodeJS, Bash.",
+        "tecno": "Framework Qt Embedded, Proteus, Terminal/Consola, Nginx",
+        "protocolos": "SSH, HTTP, HTTPS, RTSP, RTMP, WS",
+        "sueldo": "U$S 1250/2000 p/mes",
+        "cant": 0.9
+    },
+    "nivel-6":{
+        "num":6,
+        "nombre":"Programadores de inginierìa inversa, crackers, hackers con sombrero de cualquier color, expertos en seguridad informàtica, ejecutables, procesos, server/client.",
+        "lenguajes":"Mayormente de bajo nivel: C, C++, Hexadecimal.",
+        "tecno": "Servers Apache, PHPMyAdmin, MySql",
+        "protocolos": "SSH, HTTP, HTTPS, RTSP, RTMP, WS",
+        "sueldo": "Desconocido",
+        "cant": 0.1
+    }
+}
