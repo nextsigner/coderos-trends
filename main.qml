@@ -42,34 +42,34 @@ ApplicationWindow {
                 id: tit1
                 text: '<b>Coderos Trends</b>'
                 font.pixelSize: app.fs*1.2
-                color: app.c1
+                color: app.c2
             }
             Item{width: 1;height: app.fs*2}
             Text {
                 id: labelLevel
                 font.pixelSize: app.fs
-                color: app.c1
+                color: app.c2
                 width: parent.width
                 wrapMode: Text.WordWrap
             }
             Text {
                 id: labelLenguajes
                 font.pixelSize: app.fs*0.5
-                color: app.c1
+                color: app.c2
                 width: parent.width
                 wrapMode: Text.WordWrap
             }
             Text {
                 id: labelTec
                 font.pixelSize: app.fs*0.5
-                color: app.c1
+                color: app.c2
                 width: parent.width
                 wrapMode: Text.WordWrap
             }
             Text {
                 id: labelProtocolo
                 font.pixelSize: app.fs*0.5
-                color: app.c1
+                color: app.c2
                 width: parent.width
                 wrapMode: Text.WordWrap
             }
