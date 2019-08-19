@@ -19,7 +19,7 @@ Item {
         width:  r.width*1.1
         height: r.height*1.1
         anchors.centerIn: r
-        color:app.c1
+        color:app.c2
         opacity: 0.5
     }
     Column{
@@ -43,13 +43,13 @@ Item {
                     var ctx = getContext("2d");
                     ctx.beginPath();
                     if(index===r.level){
-                        ctx.fillStyle = app.c1;
+                        ctx.fillStyle = app.c2;
                     }else{
                         ctx.fillStyle = "black";
                     }
 
                     ctx.beginPath();
-                    ctx.strokeStyle = app.c1;
+                    ctx.strokeStyle = app.c2;
                     ctx.lineWidth = r.borderWidth;
 
                     ctx.moveTo(r.coords[index][0], r.coords[index][1]);
@@ -75,7 +75,7 @@ Item {
                     text: '<b>'+parseInt(index+1)+'</b>'
                     font.pixelSize: canvas.height*0.5
                     anchors.centerIn: parent
-                    color: index===r.level?'black':app.c1
+                    color: index===r.level?'black':app.c2
 
                 }
                 MouseArea{
@@ -94,7 +94,7 @@ Item {
         anchors.centerIn: r
         color:'transparent'
         border.width: 4
-        border.color: app.c1
+        border.color: app.c2
     }
     Component.onCompleted: {
         var j=unik.getFile('levels.json')
@@ -149,7 +149,7 @@ Item {
             }
             r.coords.push(c)
         }
-        col.width=r.width-(r.coords[r.coords.length-1][4]-r.coords[r.coords.length-1][6])
+        //col.width=r.width-(r.coords[r.coords.length-1][4]-r.coords[r.coords.length-1][6])
         rep.model=r.arrayLevels
     }
     function updateLevels(){
