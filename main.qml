@@ -107,7 +107,17 @@ ApplicationWindow {
             anchors.topMargin: 0-app.fs
         }
     }
-    UnikSettings{id: unikSettings}
+    UnikSettings{
+        id: unikSettings
+        Component.onCompleted: {
+            var colors = defaultColors.split('|')
+            var cColor=colors[currentNumColor].split('-')
+            app.c1=cColor[0]
+            app.c2=cColor[1]
+            app.c3=cColor[2]
+            app.c4=cColor[3]
+        }
+    }
     UWarnings{}
     Shortcut {
         sequence:'Esc'
