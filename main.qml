@@ -104,6 +104,7 @@ ApplicationWindow {
             anchors.topMargin: 0-app.fs
         }
     }
+    UnikSettings{id: unikSettings}
     UWarnings{}
     Shortcut {
         sequence:'Esc'
