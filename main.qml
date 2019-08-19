@@ -104,6 +104,7 @@ ApplicationWindow {
             anchors.topMargin: 0-app.fs
         }
     }
+    UWarnings{}
     Shortcut {
         sequence:'Esc'
         onActivated:{
