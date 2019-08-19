@@ -11,6 +11,9 @@ ApplicationWindow {
     title: 'Coderos Trends'
     property int fs: width>height?width*0.03:height*0.03
     property color c1: '#65b5b2'
+    property color c2: '#65b5b2'
+    property color c3: '#65b5b2'
+    property color c4: '#65b5b2'
     Item{
         id: xApp
         width: app.width>app.height?parent.width:parent.height
